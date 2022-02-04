@@ -11,5 +11,5 @@ build: download-qmk-firmware
   podman run --rm -it \
     --userns=keep-id \
     --workdir /qmk_firmware \
-    --volume ./qmk_firmware:/qmk_firmware \
+    --volume ./qmk_firmware:/qmk_firmware:z \
     docker.io/qmkfm/qmk_cli bash
