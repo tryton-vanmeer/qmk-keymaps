@@ -16,3 +16,6 @@ build: download-qmk-firmware
     docker.io/qmkfm/qmk_cli \
     make -j12 massdrop/alt:tryton
   cp qmk_firmware/massdrop_alt_tryton.bin .
+
+flash:
+  sudo mdloader --first --download massdrop_alt_tryton.bin --restart
