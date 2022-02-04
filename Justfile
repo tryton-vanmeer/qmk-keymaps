@@ -15,3 +15,4 @@ build: download-qmk-firmware
     --volume ./massdrop-alt:/qmk_firmware/keyboards/massdrop/alt/keymaps/tryton:z \
     docker.io/qmkfm/qmk_cli \
     make -j12 massdrop/alt:tryton
+  cp qmk_firmware/massdrop_alt_tryton.bin .
