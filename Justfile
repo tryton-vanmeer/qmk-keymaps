@@ -12,4 +12,6 @@ build: download-qmk-firmware
     --userns=keep-id \
     --workdir /qmk_firmware \
     --volume ./qmk_firmware:/qmk_firmware:z \
-    docker.io/qmkfm/qmk_cli bash
+    --volume ./massdrop-alt:/qmk_firmware/keyboards/massdrop/alt/keymaps/tryton:z \
+    docker.io/qmkfm/qmk_cli \
+    make -j12 massdrop/alt:tryton
