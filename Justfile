@@ -4,7 +4,7 @@ download-qmk-firmware:
     cd qmk_firmware
     git pull
   else
-    git clone --depth 1 https://github.com/qmk/qmk_firmware.git
+    git clone --recurse-submodules -j8 --depth 1 https://github.com/qmk/qmk_firmware.git
   fi
 
 build: download-qmk-firmware
