@@ -1,3 +1,5 @@
+# https://github.com/qmk/qmk_base_container/blob/master/Dockerfile
+
 FROM registry.fedoraproject.org/fedora-minimal:35
 
 RUN microdnf install --assumeyes \
