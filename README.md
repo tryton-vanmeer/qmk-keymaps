@@ -6,7 +6,7 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ### Layer 0
 
-| Key | Extra Info |
+| Key | Notes      |
 |-----|------------|
 | FN  | Layer 1    |
 | CMD | Layer 2    |
