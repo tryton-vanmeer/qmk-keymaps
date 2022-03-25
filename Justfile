@@ -1,13 +1,7 @@
-download-qmk-firmware:
-  #!/bin/sh
-  if [ -d qmk_firmware ]; then
-    cd qmk_firmware
-    git pull
-  else
-    git clone --recurse-submodules -j8 --depth 1 https://github.com/qmk/qmk_firmware.git
-  fi
+qmk-firmware:
+  git submodule update --init
 
-build: download-qmk-firmware
+build: qmk-firmware
   podman run --rm -it \
     --userns=keep-id \
     --workdir /qmk_firmware \
