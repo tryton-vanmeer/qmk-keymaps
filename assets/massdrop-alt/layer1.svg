@@ -961,9 +961,6 @@
             rx="5" fill="#adb5b2"/>
 
 
-      <text x="47" y="132" text-anchor="middle" font-size="16">CMD</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -991,8 +988,6 @@
       <rect x="101.5" y="112"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="121.5" y="132" text-anchor="middle" font-size="16">A</text>
 
 
 
@@ -1025,9 +1020,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="175.5" y="132" text-anchor="middle" font-size="16">S</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1055,9 +1047,6 @@
       <rect x="209.5" y="112"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-
-      <text x="229.5" y="132" text-anchor="middle" font-size="16">D</text>
 
 
   </g>
@@ -1089,9 +1078,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="283.5" y="132" text-anchor="middle" font-size="16">F</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1119,8 +1105,6 @@
       <rect x="317.5" y="112"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="337.5" y="132" text-anchor="middle" font-size="16">G</text>
 
 
 
@@ -1154,9 +1138,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="391.5" y="132" text-anchor="middle" font-size="16">H</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1186,8 +1167,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="445.5" y="132" text-anchor="middle" font-size="16">J</text>
-
 
   </g>
 
@@ -1216,8 +1195,6 @@
       <rect x="479.5" y="112"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="499.5" y="132" text-anchor="middle" font-size="16">K</text>
 
 
 
@@ -1250,9 +1227,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="553.5" y="132" text-anchor="middle" font-size="16">L</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1282,10 +1256,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="607.5" y="128" text-anchor="middle" font-size="16">:</text>
-      <text x="607.5" y="142" text-anchor="middle" font-size="16">;</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1313,12 +1283,6 @@
       <rect x="641.5" y="112"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="661.5" y="132" text-anchor="middle" font-size="16">"</text>
-      <text x="661.5" y="152" text-anchor="middle" font-size="16">'</text>
-
-
-
   </g>
 
   <g class='  keycap'
@@ -1346,11 +1310,6 @@
       <rect x="695.5" y="112"
             width="107.5" height="40"
             rx="5" fill="#d44000"/>
-
-
-      <text x="750.5" y="136" text-anchor="middle" font-size="16">RETURN</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1379,7 +1338,7 @@
             width="40" height="40"
             rx="5" fill="#979b9c"/>
 
-      <text x="837" y="130" text-anchor="middle" font-size="16">PG</text>
+      <text x="837" y="130" text-anchor="middle" font-size="16">VOL</text>
       <text x="837" y="144" text-anchor="middle" font-size="16">UP</text>
 
   </g>
@@ -1409,10 +1368,6 @@
       <rect x="7" y="166"
             width="107.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="61" y="186" text-anchor="middle" font-size="16">SHIFT</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1440,11 +1395,6 @@
       <rect x="128.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-
-      <text x="148.5" y="186" text-anchor="middle" font-size="16">Z</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1472,11 +1422,6 @@
       <rect x="182.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-
-      <text x="202.5" y="186" text-anchor="middle" font-size="16">X</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1504,9 +1449,6 @@
       <rect x="236.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-
-      <text x="256.5" y="186" text-anchor="middle" font-size="16">C</text>
 
 
   </g>
@@ -1538,9 +1480,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="310.5" y="186" text-anchor="middle" font-size="16">V</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1569,7 +1508,7 @@
             width="40" height="40"
             rx="5" fill="#d9deda"/>
 
-      <text x="364.5" y="186" text-anchor="middle" font-size="16">B</text>
+      <text x="364.5" y="186" text-anchor="middle" font-size="14">BOOT</text>
   </g>
 
   <g class='  keycap'
@@ -1599,9 +1538,6 @@
             rx="5" fill="#d9deda"/>
 
 
-      <text x="418.5" y="186" text-anchor="middle" font-size="16">N</text>
-
-
   </g>
 
   <g class='  keycap'
@@ -1629,8 +1565,6 @@
       <rect x="452.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="472.5" y="186" text-anchor="middle" font-size="16">M</text>
   </g>
 
   <g class='  keycap'
@@ -1658,9 +1592,6 @@
       <rect x="506.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="526.5" y="180" text-anchor="middle" font-size="16">&lt;</text>
-      <text x="526.5" y="196" text-anchor="middle" font-size="16">,</text>
   </g>
 
   <g class='  keycap'
@@ -1688,9 +1619,6 @@
       <rect x="560.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
-
-      <text x="580.5" y="180" text-anchor="middle" font-size="16">&gt;</text>
-      <text x="580.5" y="196" text-anchor="middle" font-size="16">.</text>
 
 
   </g>
@@ -1721,9 +1649,6 @@
             width="40" height="40"
             rx="5" fill="#d9deda"/>
 
-      <text x="634.5" y="180" text-anchor="middle" font-size="16">?</text>
-      <text x="634.5" y="196" text-anchor="middle" font-size="16">/</text>
-
   </g>
 
   <g class='  keycap'
@@ -1751,9 +1676,6 @@
       <rect x="668.5" y="166"
             width="80.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="708.5" y="186" text-anchor="middle" font-size="16">SHIFT</text>
-
   </g>
 
   <g class='  keycap'
@@ -1781,9 +1703,6 @@
       <rect x="763" y="166"
             width="40" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="783" y="186" text-anchor="middle" font-size="16">UP</text>
-
   </g>
 
   <g class='  keycap'
@@ -1812,9 +1731,8 @@
             width="40" height="40"
             rx="5" fill="#adb5b2"/>
 
-      <text x="837" y="183" text-anchor="middle" font-size="16">PG</text>
+      <text x="837" y="183" text-anchor="middle" font-size="16">VOL</text>
       <text x="837" y="196" text-anchor="middle" font-size="16">DN</text>
-
   </g>
 
   <g class='  keycap'
@@ -1843,8 +1761,6 @@
             width="53.5" height="40"
             rx="5" fill="#adb5b2"/>
 
-      <text x="33.5" y="240" text-anchor="middle" font-size="16">CTRL</text>
-
   </g>
 
   <g class='  keycap'
@@ -1872,8 +1788,6 @@
       <rect x="74.5" y="220"
             width="53.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="100.5" y="240" text-anchor="middle" font-size="16">SUPER</text>
   </g>
 
   <g class='  keycap'
@@ -1901,8 +1815,6 @@
       <rect x="142" y="220"
             width="53.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="168.5" y="240" text-anchor="middle" font-size="16">ALT</text>
   </g>
 
   <g class='  keycap'
@@ -1958,9 +1870,6 @@
       <rect x="547" y="220"
             width="53.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="573.5" y="240" text-anchor="middle" font-size="16">ALT</text>
-
   </g>
 
   <g class='  keycap'
@@ -1988,8 +1897,6 @@
       <rect x="614.5" y="220"
             width="53.5" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="640.5" y="240" text-anchor="middle" font-size="16">FN</text>
   </g>
 
   <g class='  keycap'
@@ -2017,8 +1924,6 @@
       <rect x="709" y="220"
             width="40" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="729.5" y="240" text-anchor="middle" font-size="16">LEFT</text>
   </g>
 
   <g class='  keycap'
@@ -2046,8 +1951,6 @@
       <rect x="763" y="220"
             width="40" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="783" y="240" text-anchor="middle" font-size="16">DOWN</text>
   </g>
 
   <g class='  keycap'
@@ -2075,8 +1978,6 @@
       <rect x="817" y="220"
             width="40" height="40"
             rx="5" fill="#adb5b2"/>
-
-      <text x="837" y="240" text-anchor="middle" font-size="16">RIGHT</text>
   </g>
 
       </g>
