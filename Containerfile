@@ -9,4 +9,12 @@ RUN microdnf install --assumeyes \
     arm-none-eabi-newlib \
     gcc \
     libfl2 \
+    python \
+    pip \
+    python3-nose2 \
+    python3-yapf \
     && microdnf clean all
+
+RUN python3 -m pip install qmk
+
+ENV QMK_HOME /qmk_firmware
