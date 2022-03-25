@@ -41,22 +41,22 @@
     <!-- Outer Border -->
     <rect x="1" y="1"
           width="52" height="52"
-          rx="5" fill="#cccccc" class="outer border"/>
+          rx="5" fill="#851b00" class="outer border"/>
 
     <!-- Outer Fill -->
     <rect x="1" y="1"
           width="52" height="52"
-          rx="5" fill="#cccccc"/>
+          rx="5" fill="#851b00"/>
 
       <!-- Inner Border -->
       <rect x="7" y="4"
             width="40" height="40"
-            rx="5" fill="#fcfcfc" class="inner border"/>
+            rx="5" fill="#d44000" class="inner border"/>
 
       <!-- Inner Fill -->
       <rect x="7" y="4"
             width="40" height="40"
-            rx="5" fill="#fcfcfc"/>
+            rx="5" fill="#d44000"/>
 
       <text x="27" y="27" text-anchor="middle" font-size="16">ESC</text>
 
@@ -1388,27 +1388,27 @@
     <!-- Outer Border -->
     <rect x="689.5" y="109"
           width="119.5" height="52"
-          rx="5" fill="#cccccc" class="outer border"/>
+          rx="5" fill="#851b00" class="outer border"/>
 
     <!-- Outer Fill -->
     <rect x="689.5" y="109"
           width="119.5" height="52"
-          rx="5" fill="#cccccc"/>
+          rx="5" fill="#851b00"/>
 
 
 
       <!-- Inner Border -->
       <rect x="695.5" y="112"
             width="107.5" height="40"
-            rx="5" fill="#fcfcfc" class="inner border"/>
+            rx="5" fill="#d44000" class="inner border"/>
 
       <!-- Inner Fill -->
       <rect x="695.5" y="112"
             width="107.5" height="40"
-            rx="5" fill="#fcfcfc"/>
+            rx="5" fill="#d44000"/>
 
 
-      <text x="750.5" y="132" text-anchor="middle" font-size="16">RETURN</text>
+      <text x="750.5" y="136" text-anchor="middle" font-size="16">RETURN</text>
 
 
   </g>
