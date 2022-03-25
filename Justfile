@@ -1,6 +1,5 @@
 qmk-firmware:
-  git submodule update --init
-  git fetch --recurse-submodules -j8
+  git submodule update --init --recursive
 
 build:
   podman run --rm -it \
