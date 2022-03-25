@@ -1374,8 +1374,8 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-      <text x="661.5" y="128" text-anchor="middle" font-size="16">"</text>
-      <text x="661.5" y="142" text-anchor="middle" font-size="16">'</text>
+      <text x="661.5" y="132" text-anchor="middle" font-size="16">"</text>
+      <text x="661.5" y="152" text-anchor="middle" font-size="16">'</text>
 
 
 
@@ -1534,7 +1534,7 @@
             rx="5" fill="#fcfcfc"/>
 
 
-
+      <text x="202.5" y="186" text-anchor="middle" font-size="16">X</text>
 
 
   </g>
@@ -1566,7 +1566,7 @@
             rx="5" fill="#fcfcfc"/>
 
 
-
+      <text x="256.5" y="186" text-anchor="middle" font-size="16">C</text>
 
 
   </g>
@@ -1598,7 +1598,7 @@
             rx="5" fill="#fcfcfc"/>
 
 
-
+      <text x="310.5" y="186" text-anchor="middle" font-size="16">V</text>
 
 
   </g>
@@ -1629,10 +1629,7 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
-
+      <text x="364.5" y="186" text-anchor="middle" font-size="16">B</text>
   </g>
 
   <g class='  keycap'
@@ -1662,7 +1659,7 @@
             rx="5" fill="#fcfcfc"/>
 
 
-
+      <text x="418.5" y="186" text-anchor="middle" font-size="16">N</text>
 
 
   </g>
@@ -1693,10 +1690,7 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
-
+      <text x="472.5" y="186" text-anchor="middle" font-size="16">M</text>
   </g>
 
   <g class='  keycap'
@@ -1725,10 +1719,8 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
-
+      <text x="526.5" y="180" text-anchor="middle" font-size="16">&lt;</text>
+      <text x="526.5" y="196" text-anchor="middle" font-size="16">,</text>
   </g>
 
   <g class='  keycap'
@@ -1757,8 +1749,8 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
+      <text x="580.5" y="180" text-anchor="middle" font-size="16">&gt;</text>
+      <text x="580.5" y="196" text-anchor="middle" font-size="16">.</text>
 
 
   </g>
@@ -1789,9 +1781,8 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
+      <text x="634.5" y="180" text-anchor="middle" font-size="16">?</text>
+      <text x="634.5" y="196" text-anchor="middle" font-size="16">/</text>
 
   </g>
 
@@ -1821,9 +1812,7 @@
             width="80.5" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
+      <text x="708.5" y="186" text-anchor="middle" font-size="16">SHIFT</text>
 
   </g>
 
@@ -1853,9 +1842,7 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
+      <text x="783" y="186" text-anchor="middle" font-size="16">UP</text>
 
   </g>
 
@@ -1885,9 +1872,8 @@
             width="40" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
-
+      <text x="837" y="183" text-anchor="middle" font-size="16">PG</text>
+      <text x="837" y="196" text-anchor="middle" font-size="16">DN</text>
 
   </g>
 
