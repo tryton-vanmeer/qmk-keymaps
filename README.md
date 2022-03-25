@@ -9,5 +9,6 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 | Key | Extra Info |
 |-----|------------|
 | FN  | Layer 1    |
+| CMD | Layer 2    |
 
 ![layer0](assets/massdrop-alt/layer0.png)
