@@ -1470,8 +1470,7 @@
             width="107.5" height="40"
             rx="5" fill="#fcfcfc"/>
 
-
-
+      <text x="61" y="186" text-anchor="middle" font-size="16">SHIFT</text>
 
 
   </g>
@@ -1503,7 +1502,7 @@
             rx="5" fill="#fcfcfc"/>
 
 
-
+      <text x="148.5" y="186" text-anchor="middle" font-size="16">Z</text>
 
 
   </g>
