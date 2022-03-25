@@ -1,7 +1,8 @@
 qmk-firmware:
   git submodule update --init
+  git fetch --recurse-submodules -j8
 
-build: qmk-firmware
+build:
   podman run --rm -it \
     --userns=keep-id \
     --workdir /qmk_firmware \
