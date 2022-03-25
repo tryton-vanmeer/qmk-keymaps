@@ -1,7 +1,7 @@
 qmk-firmware:
   git submodule update --init --recursive --progress
 
-build:
+build: qmk-firmware
   podman run --rm -it \
     --userns=keep-id \
     --workdir /qmk_firmware \
