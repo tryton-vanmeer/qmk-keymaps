@@ -85,6 +85,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         case RGB_TOG:
             if (record->event.pressed) {
                 if (MODS_CTRL) {
+                    rgb_matrix_sethsv(HSV_RED);
                     rgb_matrix_mode(RGB_MATRIX_RAINBOW_MOVING_CHEVRON);
                 }
                 else if (MODS_ALT) {
