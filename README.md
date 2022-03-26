@@ -6,7 +6,7 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ### Layer 0
 
-| Key | Notes      |
+| KEY | NOTES      |
 |-----|------------|
 | FN  | layer 1    |
 | CMD | layer 2    |
@@ -15,7 +15,7 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ### Layer 1
 
-| Key     | Notes                                 |
+| KEY     | NOTES                                 |
 |---------|---------------------------------------|
 | RGB TOG | toggle RGB on/off                     |
 | BOOT    | put into bootloader mode for flashing |
@@ -24,7 +24,7 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ### Layer 2
 
-| Key     | Notes      |
+| KEY     | NOTES      |
 |---------|------------|
 | TERM    | CTRL+ALT+T |
 
