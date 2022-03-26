@@ -1419,7 +1419,7 @@
             width="40" height="40"
             rx="5" fill="#d9deda"/>
 
-
+      <text x="310.5" y="186" text-anchor="middle" font-size="16">✓</text>
   </g>
 
   <g class='  keycap'
@@ -1503,6 +1503,8 @@
       <rect x="452.5" y="166"
             width="40" height="40"
             rx="5" fill="#d9deda"/>
+
+      <text x="472.5" y="186" text-anchor="middle" font-size="16">APP</text>
   </g>
 
   <g class='  keycap'
@@ -1587,6 +1589,7 @@
             width="40" height="40"
             rx="5" fill="#d9deda"/>
 
+      <text x="634.5" y="186" text-anchor="middle" font-size="16">~/</text>
   </g>
 
   <g class='  keycap'
