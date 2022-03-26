@@ -6,10 +6,12 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ### Layer 0
 
-| KEY | NOTES      |
-|-----|------------|
-| FN  | Layer 1    |
-| CMD | Layer 2    |
+| KEY         | NOTES             |
+|-------------|-------------------|
+| FN          | Layer 1           |
+| CMD         | Layer 2           |
+| LEFT SHIFT  | `(` tap           |
+| RIGHT SHIFT | `)` tap           |
 
 ![layer0](assets/massdrop-alt/layer0.png)
 
