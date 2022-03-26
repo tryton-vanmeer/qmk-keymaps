@@ -21,3 +21,11 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 | BOOT    | put into bootloader mode for flashing |
 
 ![layer1](assets/massdrop-alt/layer1.png)
+
+### Layer 2
+
+| Key     | Notes      |
+|---------|------------|
+| TERM    | CTRL+ALT+T |
+
+![layer2](assets/massdrop-alt/layer2.png)
