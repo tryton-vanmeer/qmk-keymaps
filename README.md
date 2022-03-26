@@ -8,8 +8,8 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 | KEY | NOTES      |
 |-----|------------|
-| FN  | layer 1    |
-| CMD | layer 2    |
+| FN  | Layer 1    |
+| CMD | Layer 2    |
 
 ![layer0](assets/massdrop-alt/layer0.png)
 
@@ -17,8 +17,8 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 | KEY     | NOTES                                 |
 |---------|---------------------------------------|
-| RGB TOG | toggle RGB on/off                     |
-| BOOT    | put into bootloader mode for flashing |
+| RGB TOG | Toggle RGB on/off                     |
+| BOOT    | Put into bootloader mode for flashing |
 
 ![layer1](assets/massdrop-alt/layer1.png)
 
@@ -29,3 +29,13 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 | TERM    | CTRL+ALT+T |
 
 ![layer2](assets/massdrop-alt/layer2.png)
+
+### RGB
+
+`RGB TOG` can be used with modifier keys for additional effects
+
+| KEY   | EFFECT  |
+|-------|---------|
+| SHIFT | Red     |
+| CTRL  | Rainbow |
+| ALT   | White   |
