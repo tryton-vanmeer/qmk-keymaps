@@ -1,8 +1,8 @@
 #include QMK_KEYBOARD_H
 
-#define MODS_SHIFT  (keyboard_report->mods & MOD_BIT(KC_LSHIFT) || keyboard_report->mods & MOD_BIT(KC_RSHIFT))
-#define MODS_CTRL  (keyboard_report->mods & MOD_BIT(KC_LCTL) || keyboard_report->mods & MOD_BIT(KC_RCTRL))
-#define MODS_ALT  (keyboard_report->mods & MOD_BIT(KC_LALT) || keyboard_report->mods & MOD_BIT(KC_RALT))
+#define MODS_SHIFT  (keyboard_report->mods & MOD_BIT(KC_LEFT_SHIFT) || keyboard_report->mods & MOD_BIT(KC_RIGHT_SHIFT))
+#define MODS_CTRL  (keyboard_report->mods & MOD_BIT(KC_LEFT_CTRL) || keyboard_report->mods & MOD_BIT(KC_RIGHT_CTRL))
+#define MODS_ALT  (keyboard_report->mods & MOD_BIT(KC_LEFT_ALT) || keyboard_report->mods & MOD_BIT(KC_RIGHT_ALT))
 
 #define TG_NKRO MAGIC_TOGGLE_NKRO //Toggle 6KRO / NKRO mode
 
