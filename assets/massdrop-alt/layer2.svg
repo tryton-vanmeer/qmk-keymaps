@@ -1089,6 +1089,38 @@
 
 
     <!-- Outer Border -->
+    <rect x="568" y="55"
+          width="52" height="52"
+          rx="5" fill="#b8bdb9" class="outer border"/>
+
+    <!-- Outer Fill -->
+    <rect x="568" y="55"
+          width="52" height="52"
+          rx="5" fill="#b8bdb9"/>
+
+
+
+      <!-- Inner Border -->
+      <rect x="574" y="58"
+            width="40" height="40"
+            rx="5" fill="#d9deda" class="inner border"/>
+
+      <!-- Inner Fill -->
+      <rect x="574" y="58"
+            width="40" height="40"
+            rx="5" fill="#d9deda"/>
+
+      <text x="594" y="74" text-anchor="middle" font-size="16">PRT</text>
+      <text x="594" y="90" text-anchor="middle" font-size="16">SCN</text>
+
+
+  </g>
+
+  <g class='  keycap'
+  >
+
+
+    <!-- Outer Border -->
     <rect x="419.5" y="109"
           width="52" height="52"
           rx="5" fill="#b8bdb9" class="outer border"/>
