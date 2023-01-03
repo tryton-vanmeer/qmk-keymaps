@@ -3,6 +3,7 @@ download-qmk-firmware:
   if [ -d qmk_firmware ]; then
     cd qmk_firmware
     git pull
+    git submodule update --init --recursive
   else
     git clone --recurse-submodules -j8 --depth 1 https://github.com/qmk/qmk_firmware.git
   fi
