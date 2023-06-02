@@ -5,6 +5,7 @@
   xmlns:xlink="http://www.w3.org/1999/xlink">
 
   <style type='text/css'>
+    text { font-family: JetBrains Mono; }
     .keycap .border { stroke: black; stroke-width: 2; }
     .keycap .inner.border { stroke: rgba(0,0,0,.1); }
   </style>
