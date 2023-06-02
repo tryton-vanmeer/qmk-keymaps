@@ -33,6 +33,15 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 
 ![layer2](assets/massdrop-alt/layer2.png)
 
+### Emoji
+
+> https://gitlab.gnome.org/GNOME/librsvg/-/issues/911
+
+| KEY | Emoji |
+| --- | ----- |
+| U   | 🐧    |
+| S   | 🐍    |
+
 ### RGB
 
 `RGB TOG` can be used with modifier keys for additional effects

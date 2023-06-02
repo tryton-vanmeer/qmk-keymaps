@@ -652,8 +652,6 @@
         <rect x="412" y="58"
           width="40" height="40"
           rx="5" fill="#d9deda" />
-
-        <text x="432" y="78" text-anchor="middle" font-size="16">🐧</text>
       </g>
 
       <g class='keycap'
@@ -926,8 +924,6 @@
         <rect x="155.5" y="112"
           width="40" height="40"
           rx="5" fill="#d9deda" />
-
-        <text x="175.5" y="132" text-anchor="middle" font-size="16">🐍</text>
       </g>
 
       <g class='keycap'
