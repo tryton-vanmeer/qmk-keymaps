@@ -946,7 +946,7 @@
                               width="40" height="40"
                               rx="5" fill="#d9deda" />
 
-
+                        <text x="121.5" y="132" text-anchor="middle" font-size="16">Λ</text>
                   </g>
 
                   <g class='  keycap'

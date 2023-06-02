@@ -14,6 +14,30 @@ enum alt_keycodes {
     CMD_TERMINAL,
 };
 
+enum unicode_names {
+    EMDASH,
+    LAMBDA,
+    SML_LAMBDA,
+    SNEK,
+    HOOKF,
+    PENGUIN,
+    COPYLEFT,
+    CHECKMARK,
+    MIDDLEDOT,
+};
+
+const uint32_t unicode_map[] PROGMEM = {
+    [EMDASH]     = 0x2014,   // —
+    [LAMBDA]     = 0x039B,  // Λ
+    [SML_LAMBDA] = 0x03BB,  // λ
+    [SNEK]       = 0x1F40D, // 🐍
+    [HOOKF]      = 0x0192,  // ƒ
+    [PENGUIN]    = 0x1F427, // 🐧
+    [COPYLEFT]   = 0x1F12F, // 🄯
+    [CHECKMARK]  = 0x2713,  // ✓
+    [MIDDLEDOT]  = 0x00B7,  // ·
+};
+
 keymap_config_t keymap_config;
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
@@ -27,15 +51,15 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [1] = LAYOUT(
         KC_GRV,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_TRNS, KC_MUTE, \
         KC_TRNS, KC_TRNS,   KC_TRNS,   KC_TRNS,   RGB_TOG, KC_TRNS, KC_TRNS, KC_TRNS,KC_TRNS,KC_TRNS, KC_PSCR, KC_TRNS, KC_TRNS, KC_TRNS, KC_END, \
-        KC_TRNS, KC_TRNS,   KC_TRNS,   KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_VOLU, \
+        KC_TRNS, X(LAMBDA),   KC_TRNS,   KC_TRNS,   KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_VOLU, \
         KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, QK_BOOT, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_VOLD, \
         KC_TRNS, KC_TRNS, KC_TRNS,                            KC_TRNS,                            KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS  \
     ),
     [2] = LAYOUT(
-        KC_TILDE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, UC(0x2014), KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, CMD_TERMINAL, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, LALT(KC_PSCR), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, \
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS, \
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, UC(0x2713), KC_TRNS, KC_TRNS, KC_APP, KC_TRNS, UC(0x00B7), CMD_HOME, KC_TRNS,          KC_TRNS, KC_TRNS, \
+        KC_TILDE, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, X(EMDASH), KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_TRNS, KC_TRNS,  KC_TRNS, KC_TRNS, KC_TRNS, CMD_TERMINAL, KC_TRNS, X(PENGUIN), KC_TRNS, KC_TRNS, LALT(KC_PSCR), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, \
+        KC_TRNS, X(SML_LAMBDA), X(SNEK), KC_TRNS, X(HOOKF), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,          KC_TRNS, KC_TRNS, \
+        KC_TRNS, KC_TRNS, KC_TRNS, X(COPYLEFT), UC(CHECKMARK), KC_TRNS, KC_TRNS, KC_APP, KC_TRNS, X(MIDDLEDOT), CMD_HOME, KC_TRNS,          KC_TRNS, KC_TRNS, \
         KC_TRNS, KC_TRNS, KC_TRNS,                            KC_TRNS,                            KC_TRNS, KC_TRNS, KC_MEDIA_PREV_TRACK, KC_MEDIA_PLAY_PAUSE, KC_MEDIA_NEXT_TRACK  \
     ),
     /*
