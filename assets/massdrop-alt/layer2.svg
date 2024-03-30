@@ -62,7 +62,7 @@
 
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
         <!-- Outer Border -->
@@ -85,9 +85,11 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="81" y="24" text-anchor="middle" font-size="16">F13</text>
+
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
         <!-- Outer Border -->
@@ -110,9 +112,11 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="135" y="24" text-anchor="middle" font-size="16">F14</text>
+
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -137,9 +141,10 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="189" y="24" text-anchor="middle" font-size="16">F15</text>
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -165,9 +170,12 @@
           rx="5" fill="#d9deda" />
 
 
+        <text x="243" y="24" text-anchor="middle" font-size="16">F16</text>
+
+
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -191,9 +199,13 @@
         <rect x="277" y="4"
           width="40" height="40"
           rx="5" fill="#d9deda" />
+
+        <text x="297" y="24" text-anchor="middle" font-size="16">F17</text>
+
+
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -218,10 +230,12 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="351" y="24" text-anchor="middle" font-size="16">F18</text>
+
 
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -246,10 +260,12 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="405" y="24" text-anchor="middle" font-size="16">F19</text>
+
 
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -274,10 +290,12 @@
           width="40" height="40"
           rx="5" fill="#d9deda" />
 
+        <text x="459" y="24" text-anchor="middle" font-size="16">F20</text>
+
 
       </g>
 
-      <g class='keycap'
+      <g class='  keycap'
       >
 
 
@@ -301,6 +319,39 @@
         <rect x="493" y="4"
           width="40" height="40"
           rx="5" fill="#d9deda" />
+
+        <text x="513" y="24" text-anchor="middle" font-size="16">F21</text>
+
+
+      </g>
+
+      <g class='  keycap'
+      >
+
+
+        <!-- Outer Border -->
+        <rect x="541" y="1"
+          width="52" height="52"
+          rx="5" fill="#b8bdb9" class="outer border" />
+
+        <!-- Outer Fill -->
+        <rect x="541" y="1"
+          width="52" height="52"
+          rx="5" fill="#b8bdb9" />
+
+
+        <!-- Inner Border -->
+        <rect x="547" y="4"
+          width="40" height="40"
+          rx="5" fill="#d9deda" class="inner border" />
+
+        <!-- Inner Fill -->
+        <rect x="547" y="4"
+          width="40" height="40"
+          rx="5" fill="#d9deda" />
+
+
+        <text x="567" y="24" text-anchor="middle" font-size="16">F22</text>
 
 
       </g>
