@@ -8,7 +8,7 @@ download-qmk-firmware:
     git clone --recurse-submodules -j8 --depth 1 https://github.com/qmk/qmk_firmware.git
   fi
 
-build: download-qmk-firmware
+build-massdrop-alt: download-qmk-firmware
   podman run --rm -it \
     --userns=keep-id \
     --workdir /qmk_firmware \
@@ -18,5 +18,5 @@ build: download-qmk-firmware
     qmk compile -j12 -kb massdrop/alt -km tryton
   cp qmk_firmware/massdrop_alt_tryton.bin .
 
-flash:
+flash-massdrop-alt:
   sudo mdloader --first --download massdrop_alt_tryton.bin --restart
