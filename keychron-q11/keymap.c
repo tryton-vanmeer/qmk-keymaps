@@ -4,6 +4,7 @@
 
 enum layers{
     BASE,
+    BASE_DIP,
     FN,
     CMD
 };
@@ -16,6 +17,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  MO(CMD),  KC_A,     KC_S,     KC_D,     KC_F,     KC_G,      KC_H,     KC_J,     KC_K,     KC_L,     KC_SCLN,  KC_QUOT,              KC_ENT,             KC_HOME,
         _______,  KC_LSFT,            KC_Z,     KC_X,     KC_C,     KC_V,      KC_B,     KC_N,     KC_M,     KC_COMM,  KC_DOT,   KC_SLSH,              KC_RSFT,  KC_UP,
         _______,  KC_LCTL,  KC_LGUI,  KC_LALT,  MO(FN),         KC_SPC,                        KC_SPC,             KC_LALT,  MO(FN), KC_RCTL,  KC_LEFT,  KC_DOWN,  KC_RGHT
+    ),
+    [BASE_DIP] = LAYOUT_91_ansi(
+        _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  _______,    _______,  _______,  _______,  _______,
+        _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  _______,    _______,  _______,            _______,
+        _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  _______,    _______,  _______,            _______,
+        _______,  _______,  _______, _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  _______,              _______,            _______,
+        _______,  SC_LCPO,            _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  _______,              SC_RCPC,  _______,
+        _______,  _______,  _______,  _______,  _______,            _______,                       _______,            _______,  _______,    _______,  _______,  _______,  _______
     ),
     [FN] = LAYOUT_91_ansi(
         RGB_MOD,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  KC_MUTE,  KC_VOLD,    KC_VOLU,  _______,  _______,  _______,
@@ -36,9 +45,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
-    [BASE] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
-    [FN]   = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) },
+    [BASE] = { ENCODER_CCW_CW(RGB_VAD, RGB_VAI), ENCODER_CCW_CW(KC_MS_WH_UP, KC_MS_WH_DOWN) },
+    [FN]   = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_MS_WH_LEFT, KC_MS_WH_RIGHT) },
     [CMD]  = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS), ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
+};
+
+const uint16_t PROGMEM dip_switch_map[NUM_DIP_SWITCHES][NUM_DIP_STATES] = {
+    DIP_SWITCH_OFF_ON(TG(BASE_DIP) ,TG(BASE_DIP))
 };
 
 void matrix_init_user(void) {
