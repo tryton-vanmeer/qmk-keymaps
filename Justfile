@@ -17,9 +17,29 @@ build-massdrop-alt: download-qmk-firmware
     --workdir /qmk_firmware \
     --volume ./qmk_firmware:/qmk_firmware:z \
     --volume ./massdrop-alt:/qmk_firmware/keyboards/massdrop/alt/keymaps/tryton:z \
-    docker.io/qmkfm/qmk_cli \
+    ghcr.io/qmk/qmk_cli \
     qmk compile -j12 -kb massdrop/alt -km tryton
   cp qmk_firmware/massdrop_alt_tryton.bin .
 
 flash-massdrop-alt:
   sudo mdloader --first --download massdrop_alt_tryton.bin --restart
+
+build-keychron-q11: download-qmk-firmware
+  podman run --rm -it \
+    --userns=keep-id \
+    --workdir /qmk_firmware \
+    --volume ./qmk_firmware:/qmk_firmware:z \
+    --volume ./keychron-q11:/qmk_firmware/keyboards/keychron/q11/ansi_encoder/keymaps/tryton:z \
+    ghcr.io/qmk/qmk_cli \
+    qmk compile -j12 -kb keychron/q11/ansi_encoder -km tryton
+  cp qmk_firmware/keychron_q11_ansi_encoder_tryton.bin .
+
+flash-keychron-q11:
+  sudo podman run --rm -it \
+    --privileged \
+    --volume /dev:/dev \
+    --workdir /qmk_firmware \
+    --volume ./qmk_firmware:/qmk_firmware:z \
+    --volume ./keychron-q11:/qmk_firmware/keyboards/keychron/q11/ansi_encoder/keymaps/tryton:z \
+    ghcr.io/qmk/qmk_cli \
+    make keychron/q11/ansi_encoder:tryton:flash
