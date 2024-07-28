@@ -13,35 +13,37 @@ Keymaps for keyboards using [QMK Firmware](https://github.com/qmk/qmk_firmware)
 | LEFT SHIFT  | `(` tap |
 | RIGHT SHIFT | `)` tap |
 
-![layer0](assets/massdrop-alt/layer0.png)
-
 ### Layer 1
 
 | KEY     | NOTES                                 |
 | ------- | ------------------------------------- |
 | RGB TOG | Toggle RGB on/off                     |
 | BOOT    | Put into bootloader mode for flashing |
-
-![layer1](assets/massdrop-alt/layer1.png)
+| A       | Λ                                     |
+| DEL     | MUTE                                  |
+| HOME    | END                                   |
+| PGUP    | VOL UP                                |
+| PGDN    | VOL DN                                |
 
 ### Layer 2
 
-| KEY     | NOTES                                |
-| ------- | ------------------------------------ |
-| TERM    | CTRL+ALT+T (Open Terminal)           |
-| PRT SCN | ALT+PSCR (Screenshot Focused Window) |
-
-![layer2](assets/massdrop-alt/layer2.png)
-
-### Emoji
-
-> https://gitlab.gnome.org/GNOME/librsvg/-/issues/911
-
-| KEY | Emoji |
-| --- | ----- |
-| R   | 🦀    |
-| U   | 🐧    |
-| S   | 🐍    |
+| KEY         | NOTES                                |
+| ----------- | ------------------------------------ |
+| T           | CTRL+ALT+T (Open Terminal)           |
+| P           | ALT+PSCR (Screenshot Focused Window) |
+| A           | λ                                    |
+| F           | ƒ                                    |
+| C           | 🄯                                    |
+| V           | ✓                                    |
+| M           | App Menu                             |
+| .           | ·                                    |
+| /           | ~/                                   |
+| R           | 🦀                                   |
+| U           | 🐧                                   |
+| S           | 🐍                                   |
+| Left Arrow  | Media Prev                           |
+| Down Arrow  | Media Pause                          |
+| Right Arrow | Media Next                           |
 
 ### RGB
 

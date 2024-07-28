@@ -20,8 +20,3 @@ build: download-qmk-firmware
 
 flash:
   sudo mdloader --first --download massdrop_alt_tryton.bin --restart
-
-generate-pngs:
-  rsvg-convert assets/massdrop-alt/layer0.svg -o assets/massdrop-alt/layer0.png
-  rsvg-convert assets/massdrop-alt/layer1.svg -o assets/massdrop-alt/layer1.png
-  rsvg-convert assets/massdrop-alt/layer2.svg -o assets/massdrop-alt/layer2.png
