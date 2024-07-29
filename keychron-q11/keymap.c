@@ -12,13 +12,10 @@ enum ss_keys {
 };
 
 enum unicode_names {
-    CRAB,
     EMDASH,
     LAMBDA,
     SML_LAMBDA,
-    SNEK,
     HOOKF,
-    PENGUIN,
     COPYLEFT,
     CHECKMARK,
     MIDDLEDOT,
