@@ -4,9 +4,12 @@
 enum layers{
     BASE,
     FN,
-    CMD
+    CMD,
 };
 
+enum ss_keys {
+    SS_HOME,
+};
 
 enum unicode_names {
     CRAB,
@@ -55,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  _______,  UC(EMDASH),    _______,  _______,            _______,
         _______,  _______,  _______,  _______,  _______,  _______,  _______,   _______,  _______,  _______,  _______,  LALT(KC_PSCR),  _______,    _______,  _______,            _______,
         _______,  _______,  UC(LAMBDA), _______,  _______,   UC(HOOKF),  _______,   _______,  _______,  _______,  _______,  _______,  _______,              _______,            _______,
-        _______,  _______,            _______,  _______,  UC(COPYLEFT),  UC(CHECKMARK),   _______,  _______,  _______,  _______,  UC(MIDDLEDOT),  _______,              _______,  _______,
+        _______,  _______,            _______,  _______,  UC(COPYLEFT),  UC(CHECKMARK),   _______,  _______,  _______,  _______,  UC(MIDDLEDOT),  SS_HOME,              _______,  _______,
         _______,  _______,  _______,  _______,  _______,            _______,                       _______,            _______,  _______,    _______,  KC_MEDIA_PREV_TRACK,  KC_MEDIA_PLAY_PAUSE,  KC_MEDIA_NEXT_TRACK
     ),
 };
@@ -68,4 +71,18 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][NUM_DIRECTIONS] = {
 
 void matrix_init_user(void) {
     rgb_matrix_mode(RGB_MATRIX_SOLID_COLOR);
+}
+
+bool process_record_user(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+
+        case SS_HOME:
+            if (record->event.pressed) {
+                SEND_STRING("~/");
+            }
+            return false;
+
+        default:
+            return true;
+    }
 }
