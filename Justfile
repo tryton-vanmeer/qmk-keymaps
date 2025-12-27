@@ -8,7 +8,7 @@ download-qmk-firmware:
   else
     git clone --recurse-submodules -j8 --depth 1 https://github.com/qmk/qmk_firmware.git
   fi
-  ln -Trfs ./massdrop-alt qmk_firmware/keyboards/massdrop/alt/keymaps/custom
+  ln -Trfs ./massdrop-alt qmk_firmware/keyboards/drop/alt/keymaps/custom
   ln -Trfs ./keychron-q11 qmk_firmware/keyboards/keychron/q11/ansi_encoder/keymaps/custom
 
 build-massdrop-alt: download-qmk-firmware
